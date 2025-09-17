@@ -1,9 +1,18 @@
-import styles from './Cabecalho.module.css'
+import styled from 'styled-components';
+
+// Criamos o componente estilizado
+const CabecalhoContainer = styled.header`
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+`;
 
 const Cabecalho = () => (
-  <header className={styles.cabecalho}>
+  <CabecalhoContainer>
     <h1>EBAC Jobs</h1>
-  </header>
-)
+  </CabecalhoContainer>
+);
 
-export default Cabecalho
+export default Cabecalho;

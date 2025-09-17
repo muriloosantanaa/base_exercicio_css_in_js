@@ -1,13 +1,15 @@
-import styles from './Hero.module.css'
+import styled from 'styled-components';
+
+const HeroContainer = styled.section`
+  background-color: #e0e0e0;
+  padding: 40px 20px;
+  text-align: center;
+`;
 
 const Hero = () => (
-  <form className={styles.form}>
-    <div className="container">
-      <h2 className={styles.heroTitle}>
-        As melhores vagas para tecnologia, design e artes visuais.
-      </h2>
-    </div>
-  </form>
-)
+  <HeroContainer>
+    <h2>Encontre a vaga perfeita para você!</h2>
+  </HeroContainer>
+);
 
-export default Hero
+export default Hero;
