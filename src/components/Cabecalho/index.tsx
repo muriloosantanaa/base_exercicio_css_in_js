@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 // Criamos o componente estilizado
 const CabecalhoContainer = styled.header`
@@ -7,12 +7,12 @@ const CabecalhoContainer = styled.header`
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-`;
+`
 
 const Cabecalho = () => (
   <CabecalhoContainer>
     <h1>EBAC Jobs</h1>
   </CabecalhoContainer>
-);
+)
 
-export default Cabecalho;
+export default Cabecalho
