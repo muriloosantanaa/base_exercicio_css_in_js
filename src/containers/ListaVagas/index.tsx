@@ -11,14 +11,25 @@ const Lista = styled.div`
 export default function ListaVagas() {
   const vagas = [
     {
-      titulo: 'Frontend Developer',
-      descricao: 'React, Styled Components',
+      titulo: 'Desenvolvedor Frontend',
+      descricao:
+        'Atuar com React, Styled Components e integrações com API REST',
       localizacao: 'Remoto'
     },
     {
-      titulo: 'Backend Developer',
-      descricao: 'Node.js, Express e MongoDB',
+      titulo: 'Desenvolvedor Backend',
+      descricao: 'Node.js, Express e banco de dados MongoDB',
       localizacao: 'São Paulo'
+    },
+    {
+      titulo: 'UI Designer',
+      descricao: 'Figma, criação de interfaces responsivas e design system',
+      localizacao: 'Rio de Janeiro'
+    },
+    {
+      titulo: 'UX Researcher',
+      descricao: 'Pesquisas com usuários, prototipagem e testes de usabilidade',
+      localizacao: 'Remoto'
     }
   ]
 

@@ -4,7 +4,7 @@ const VagaContainer = styled.div`
   background: #fff;
   border: 1px solid #eee;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 8px;
   margin-bottom: 16px;
   transition: 0.3s;
 
